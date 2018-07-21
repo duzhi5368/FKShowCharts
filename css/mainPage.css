@@ -1,0 +1,55 @@
+#logoPanel{
+    background: #727290;
+}
+#logo{
+    color: #ECECEC;
+    font-size: 24px;
+    padding: 8px 8px;
+}
+#main-nav {
+    margin-left: 1px;
+}
+#main-nav.nav-tabs.nav-stacked > li {
+    margin : 10px 0px 10px 0px;
+}
+#main-nav.nav-tabs.nav-stacked > li > a {
+    padding: 8px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #555472;
+    background: -moz-linear-gradient(top, #FAFAFA 0%, #555472 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#555472));
+    background: -webkit-linear-gradient(top, #FAFAFA 0%,#555472 100%);
+    background: -o-linear-gradient(top, #FAFAFA 0%,#555472 100%);
+    background: -ms-linear-gradient(top, #FAFAFA 0%,#555472 100%);
+    background: linear-gradient(top, #FAFAFA 0%,#555472 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#555472');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#555472')";
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+}
+#main-nav.nav-tabs.nav-stacked > li > a > span {
+    color: #4A515B;
+}
+#main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover {
+    color: #FFFFFF;
+    background: #491a25;
+    background: -moz-linear-gradient(top, #4A515B 0%, #491a25 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4A515B), color-stop(100%,#491a25));
+    background: -webkit-linear-gradient(top, #4A515B 0%,#491a25 100%);
+    background: -o-linear-gradient(top, #4A515B 0%,#491a25 100%);
+    background: -ms-linear-gradient(top, #4A515B 0%,#491a25 100%);
+    background: linear-gradient(top, #4A515B 0%,#491a25 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4A515B', endColorstr='#491a25');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4A515B', endColorstr='#491a25')";
+    border-color: #2B2E33;
+}
+#main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover > span {
+    color: #FFFFFF;
+}
+.main-container{
+    border: 1px solid #D5D5D5;
+    height: 435px;
+    width: 99%;
+}

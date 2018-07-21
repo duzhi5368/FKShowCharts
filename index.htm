@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="bootstrap_4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/mainPage.css">
+		<script src="bootstrap_4.1.1/js/bootstrap.min.js"></script>
+		<title>图表样例页面</title>
+	</head>
+	<body>
+		<div class="navbar navbar-duomi navbar-static-top" role="navigation" id="logoPanel">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<img src="graphics/logo.png" alt="LOGO" height="40">
+					<a class="navbar-brand" href="index.htm" id="logo">大数据图表展示中心</a>
+				</div>
+			</div>
+		</div>
+
+		<nav class="navbar-inverse visible-lg visible-md" role="navigation">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2">
+						<ul id="main-nav" class="nav nav-tabs nav-stacked navbar-nav" style="">
+							<li>
+								<a href="index.htm">
+									Homepage 首页
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group1.html">
+									Line charts 折线图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group2.html">
+									Area charts 面积图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group3.html">
+									Bar charts 柱状图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group4.html">
+									Pie charts 饼状图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group5.html">
+									Gauges charts 仪表盘
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group6.html">
+									More charts 其他图表
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group7.html">
+									Combo charts 组合图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group8.html">
+									Dynamic charts 动态数据图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group9.html">
+									3D charts 3D数据图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group10.html">
+									Customize charts 自定义图
+								</a>
+							</li>
+							<li>
+								<a href="./subHtml/group11.html">
+									History charts 历史图
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-10">
+						<table class="table">
+							<thead>
+							<tr>
+								<th  style="width: 100px;">图表类型</th>
+								<th>使用场景简介</th>
+								<th>优势</th>
+								<th>劣势</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>线状图表</td>
+								<td>适合大数量级的二维数据集，也适合多个二维数据集的比较</td>
+								<td>可以容易的反应数据变化的趋势</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>面积图表</td>
+								<td>适合展示数据随时间有序的波动情况</td>
+								<td>适合有序的类别</td>
+								<td>对于无序的数据，无法展示其数据特点</td>
+							</tr>
+							<tr>
+								<td>饼状图表</td>
+								<td>适合各项大小与占比比例显示，在不要求数据精度时适用</td>
+								<td>非常适合数据比例情况，例如渠道来源等</td>
+								<td>人眼对面积大小不敏感，不适合精确数据；分类过多时扇区过小，不适合展现</td>
+							</tr>
+							<tr class="success">
+								<td>柱状图表</td>
+								<td>适合二维数据集，其中一个维度需要比较，用于显示一段时间内的数据变化或各项之间的比较情况</td>
+								<td>利用柱子高度反应数据差异，人眼对高度差异非常敏感</td>
+								<td>只适合中小规模的数据集，分类过多则无法展示数据特点</td>
+							</tr>
+							<tr class="danger">
+								<td>极地图</td>
+								<td>适合多维数据展示</td>
+								<td>适合用来查看某项数据指标的变动情况和趋势</td>
+								<td>数据点不适合太多</td>
+							</tr>
+							<tr class="info">
+								<td>漏斗图</td>
+								<td>适合多个关联业务环节中，上下环节的差异</td>
+								<td>适合有固定流程的多环节分析，例如转化率，流失率</td>
+								<td>不适合无序的类别或没有流程关系的变量</td>
+							</tr>
+							<tr class="warning">
+								<td>词云</td>
+								<td>适合用来做一些用户画像，用户标签的工作</td>
+								<td>适合在大量文本中提取关键字</td>
+								<td>不适合数据太小，或数据区分度不高的文本</td>
+							</tr>
+							<tr class="active">
+								<td>散点图</td>
+								<td>适合用来判断若干数据中各数值的对应关系和关联</td>
+								<td>适合处理较大量数据</td>
+								<td>数据量小的时候会显得比较混乱</td>
+							</tr>
+							<tr>
+								<td>仪表盘</td>
+								<td>适合显示某指标的完成进度</td>
+								<td>适合项目进度展示</td>
+								<td>只适合展现数据累计情况，不适合用于数据特征分布等</td>
+							</tr>
+							<tr>
+								<td>瀑布图</td>
+								<td>采用绝对值和相对值相结合的方式，适合表达多个数值之间的数量变化关系</td>
+								<td>可展示两个数据点的演变过程和累计方式</td>
+								<td>若各类别数据差别过大则难以比较</td>
+							</tr>
+							<tr>
+								<td>桑基图</td>
+								<td>使用分支线条粗细表示数量多少，比较适合用户流量数据的分析</td>
+								<td>可视化非常直观，适合表示数据的流量</td>
+								<td>不适合起始流量和结束流量不同的场景</td>
+							</tr>
+							<tr>
+								<td>旭日图</td>
+								<td>可以清楚的表示层级归属关系，便于了解数据的具体构成</td>
+								<td>可视化非常直观，适合逐层下钻查看数据/td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>矩形树图</td>
+								<td>通过矩形表示子节点大小，便于了解数据层级结构和详情</td>
+								<td>可视化非常直观，适合逐层下钻查看数据/td>
+								<td>不适合展现不同层级的数据</td>
+							</tr>
+							<tr>
+								<td>箱线图</td>
+								<td>利用数据中五分统计量：最小值，第一四分位数，中位数，第三四分位数和最大值来描述数据的方法</td>
+								<td>适合用来展示一组数据分散情况，特别用于几个样本的比较/td>
+								<td>对于大量数据，反应的形状信息过于模糊</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<footer>
+			<p>当前版本: 0.3.0</p>
+			<p>&copy; Copyright 2018 Ubisoft大数据组</p>
+		</footer>
+	</body>
+</html>
